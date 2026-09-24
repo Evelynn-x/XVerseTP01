@@ -9,3 +9,8 @@
 
   El programa carga un dataset de videojuegos (`videojuegos.json`) y muestra cada    título junto con su género, plataforma y rating.  
   Sirve como base para agregar funciones extra como búsqueda, filtrado o   recomendaciones.
+
+❇︎Uso del programa
+  Para Ejecutar el sistema desde la terminal:
+  ```bash
+   py XVERSE-TP-01.py
