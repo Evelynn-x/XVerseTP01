@@ -6,7 +6,7 @@
     "rating": 9.5,
     "año": 2020,
     "desarrollador": "Naughty Dog",
-    "exclusivo": true,
+    
     "descripcion": "Secuela del aclamado juego de supervivencia, centrada en la historia de Ellie."
   },
   {
@@ -15,7 +15,7 @@
     "rating": 9.0,
     "año": 2016,
     "desarrollador": "Naughty Dog",
-    "exclusivo": true,
+    
     "descripcion": "Nathan Drake emprende su última gran aventura en busca de tesoros perdidos."
   },
   {
@@ -24,7 +24,7 @@
     "rating": 9.1,
     "año": 2015,
     "desarrollador": "FromSoftware",
-    "exclusivo": true,
+    
     "descripcion": "Un oscuro RPG de acción ambientado en Yharnam."
   },
   {
@@ -33,7 +33,7 @@
     "rating": 9.6,
     "año": 2022,
     "desarrollador": "Santa Monica Studio",
-    "exclusivo": false,
+    
     "descripcion": "Kratos y Atreus enfrentan el fin de los tiempos nórdicos."
   },
  {
@@ -42,7 +42,7 @@
     "rating": 8.9,
     "año": 2020,
     "desarrollador": "Insomniac Games",
-    "exclusivo": false,
+    
     "descripcion": "Miles Morales se convierte en Spider-Man y protege Nueva York."
   },
   {
@@ -51,7 +51,7 @@
     "rating": 9.3,
     "año": 2020,
     "desarrollador": "Sucker Punch Productions",
-    "exclusivo": true,
+    
     "descripcion": "Jin Sakai lucha contra la invasión mongola en la isla de Tsushima."
   },
   {
@@ -60,7 +60,68 @@
     "rating": 8.7,
     "año": 2022,
     "desarrollador": "Polyphony Digital",
-    "exclusivo": true,
+    
     "descripcion": "La saga de simulación de conducción regresa con realismo y cientos de autos."
+  },
+  {
+    "titulo": "Horizon Forbidden West",
+    "genero": "Acción/RPG",
+    "rating": 9.0,
+    "año": 2022,
+    "desarrollador": "Guerrilla Games",
+    
+    "descripcion": "Aloy explora nuevas tierras y enfrenta máquinas aún más letales."
+  },
+  {
+    "titulo": "Ratchet & Clank: Rift Apart",
+    "genero": "Acción/Plataformas",
+    "rating": 8.8,
+    "año": 2021,
+    "desarrollador": "Insomniac Games",
+    
+    "descripcion": "Ratchet y Clank viajan entre dimensiones para salvar el multiverso."
+  },
+  {
+    "titulo": "Demon's Souls (Remake)",
+    "genero": "RPG/Soulslike",
+    "rating": 9.2,
+    "año": 2020,
+    "desarrollador": "Bluepoint Games",
+    
+    "descripcion": "Remake del clásico de PS3 con gráficos y jugabilidad renovados."
+  },
+  {
+    "titulo": "Returnal",
+    "genero": "Acción/Roguelike",
+    "rating": 8.6,
+    "año": 2021,
+    "desarrollador": "Housemarque",
+    
+    "descripcion": "Selene queda atrapada en un planeta hostil en un ciclo infinito."
+  },
+  {
+    "titulo": "The Last Guardian",
+    "genero": "Aventura/Puzzle",
+    "rating": 8.2,
+    "año": 2016,
+    "desarrollador": "Japan Studio",
+    
+    "descripcion": "Un niño y una criatura gigante forjan un vínculo en un mundo misterioso."
+  },
+  {
+    "titulo": "Infamous: Second Son",
+    "genero": "Acción/Mundo Abierto",
+    "rating": 8.0,
+    "año": 2014,
+    "desarrollador": "Sucker Punch Productions",
+    "descripcion": "Delsin Rowe descubre poderes sobrehumanos y lucha contra la opresión."
+  },
+  {
+    "titulo": "Shadow of the Colossus (Remake)",
+    "genero": "Aventura/Acción",
+    "rating": 9.4,
+    "año": 2018,
+    "desarrollador": "Bluepoint Games",
+    "descripcion": "Un joven enfrenta colosos gigantes para salvar a su amada."
   }
 ]
