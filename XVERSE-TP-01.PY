@@ -56,7 +56,7 @@ with open("videojuegos.json", "r", encoding="utf-8") as f:
 
 juegos = [Videojuego(j["titulo"], j["genero"], j["plataforma"], j["rating"]) for j in data]
 
-
+#funciones para listar, buscar y filtrar juegos
 
 def listar_juegos(data):
     for j in data:
@@ -77,16 +77,32 @@ def filtrar_por_plataforma(data, plataforma):
     filtrados = [j for j in data if plataforma.lower() in j._plataforma.lower()]
     listar_juegos(filtrados)
 
+def ver_top_10(juegos):
+    # Ordena los juegos por rating de mayor a menor
+    juegos_ordenados = sorted(juegos, key=lambda x: x["rating"], reverse=True)
+    print("\n--- TOP 10 JUEGOS ---")
+    for i, juego in enumerate(juegos_ordenados[:10], start=1):
+        print(f"{i}. {juego['titulo']} ({juego['consola']}) ⭐{juego['rating']}")
 
+
+def juegos_relacionados(juegos, titulo):
+    # Busca el juego por título
+    juego_base = next((j for j in juegos if j["titulo"].lower() == titulo.lower()), None)
+    if not juego_base:
+        print("Juego no encontrado.")
+        return
+
+    
 
 # Menú principal
 while True:
     print("\n--- MENÚ XVerse ---")
     print("1. Listar todos los juegos")
     print("2. Buscar por título")
-    print("3. Filtrar por género")
-    print("4. Filtrar por plataforma")
-    print("5. Salir")
+    print("3. Ver Top 10")
+    print("4. Ver juegos relacionados")
+    print("5. Filtrar por género")
+    print("6. Salir")
 
     opcion = input("Elige una opción: ")
 
@@ -96,12 +112,14 @@ while True:
         titulo = input("Título a buscar: ")
         buscar_juego(juegos, titulo)
     elif opcion == "3":
+        ver_top_10(juegos)
+    elif opcion == "4":
+        titulo = input("Título para ver relacionados: ")
+        juegos_relacionados(juegos, titulo)
+    elif opcion == "5":
         genero = input("Género: ")
         filtrar_por_genero(juegos, genero)
-    elif opcion == "4":
-        plataforma = input("Plataforma: ")
-        filtrar_por_plataforma(juegos, plataforma)
-    elif opcion == "5":
+    elif opcion == "6":
         print("¡Hasta luego!")
         break
     else:

@@ -1,15 +1,40 @@
 [
+ 
   {
     "titulo": "The Last of Us Part II",
-    "genero": "Accion/Aventura",
-    "plataforma": "PlayStation",
-    "rating": 9.5
+    "genero": "Acción/Aventura",
+    "rating": 9.5,
+    "año": 2020,
+    "desarrollador": "Naughty Dog",
+    "exclusivo": true,
+    "descripcion": "Secuela del aclamado juego de supervivencia, centrada en la historia de Ellie."
   },
   {
-    "titulo": "Uncharted 4",
-    "genero": "Accion/Aventura",
-    "plataforma": "PlayStation",
-    "rating": 9.0
+    "titulo": "Uncharted 4: A Thief's End",
+    "genero": "Acción/Aventura",
+    "rating": 9.0,
+    "año": 2016,
+    "desarrollador": "Naughty Dog",
+    "exclusivo": true,
+    "descripcion": "Nathan Drake emprende su última gran aventura en busca de tesoros perdidos."
+  },
+  {
+       "titulo": "Bloodborne",
+    "genero": "RPG/Soulslike",
+    "rating": 9.1,
+    "año": 2015,
+    "desarrollador": "FromSoftware",
+    "exclusivo": true,
+    "descripcion": "Un oscuro RPG de acción ambientado en Yharnam."
+  },
+  {
+    "titulo": "God of War Ragnarok",
+    "genero": "Acción/Aventura",
+    "rating": 9.6,
+    "año": 2022,
+    "desarrollador": "Santa Monica Studio",
+    "exclusivo": false,
+    "descripcion": "Kratos y Atreus enfrentan el fin de los tiempos nórdicos."
   }
-   
+
 ]
