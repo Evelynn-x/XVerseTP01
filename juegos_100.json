@@ -1,0 +1,802 @@
+[
+    {
+        "titulo": "Juego 1",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2000,
+        "desarrollador": "Dev 0",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 2",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2001,
+        "desarrollador": "Dev 1",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 3",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2002,
+        "desarrollador": "Dev 2",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 4",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2003,
+        "desarrollador": "Dev 3",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 5",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2004,
+        "desarrollador": "Dev 4",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 6",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2005,
+        "desarrollador": "Dev 5",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 7",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2006,
+        "desarrollador": "Dev 6",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 8",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2007,
+        "desarrollador": "Dev 7",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 9",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2008,
+        "desarrollador": "Dev 8",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 10",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2009,
+        "desarrollador": "Dev 9",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 11",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2010,
+        "desarrollador": "Dev 10",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 12",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2011,
+        "desarrollador": "Dev 11",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 13",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2012,
+        "desarrollador": "Dev 12",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 14",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2013,
+        "desarrollador": "Dev 13",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 15",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2014,
+        "desarrollador": "Dev 14",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 16",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2015,
+        "desarrollador": "Dev 15",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 17",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2016,
+        "desarrollador": "Dev 16",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 18",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2017,
+        "desarrollador": "Dev 17",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 19",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2018,
+        "desarrollador": "Dev 18",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 20",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2019,
+        "desarrollador": "Dev 19",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 21",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2020,
+        "desarrollador": "Dev 20",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 22",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2021,
+        "desarrollador": "Dev 21",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 23",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2022,
+        "desarrollador": "Dev 22",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 24",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2023,
+        "desarrollador": "Dev 23",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 25",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2024,
+        "desarrollador": "Dev 24",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 26",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2000,
+        "desarrollador": "Dev 25",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 27",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2001,
+        "desarrollador": "Dev 26",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 28",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2002,
+        "desarrollador": "Dev 27",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 29",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2003,
+        "desarrollador": "Dev 28",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 30",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2004,
+        "desarrollador": "Dev 29",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 31",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2005,
+        "desarrollador": "Dev 30",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 32",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2006,
+        "desarrollador": "Dev 31",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 33",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2007,
+        "desarrollador": "Dev 32",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 34",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2008,
+        "desarrollador": "Dev 33",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 35",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2009,
+        "desarrollador": "Dev 34",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 36",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2010,
+        "desarrollador": "Dev 35",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 37",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2011,
+        "desarrollador": "Dev 36",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 38",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2012,
+        "desarrollador": "Dev 37",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 39",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2013,
+        "desarrollador": "Dev 38",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 40",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2014,
+        "desarrollador": "Dev 39",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 41",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2015,
+        "desarrollador": "Dev 40",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 42",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2016,
+        "desarrollador": "Dev 41",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 43",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2017,
+        "desarrollador": "Dev 42",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 44",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2018,
+        "desarrollador": "Dev 43",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 45",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2019,
+        "desarrollador": "Dev 44",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 46",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2020,
+        "desarrollador": "Dev 45",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 47",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2021,
+        "desarrollador": "Dev 46",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 48",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2022,
+        "desarrollador": "Dev 47",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 49",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2023,
+        "desarrollador": "Dev 48",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 50",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2024,
+        "desarrollador": "Dev 49",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 51",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2000,
+        "desarrollador": "Dev 0",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 52",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2001,
+        "desarrollador": "Dev 1",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 53",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2002,
+        "desarrollador": "Dev 2",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 54",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2003,
+        "desarrollador": "Dev 3",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 55",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2004,
+        "desarrollador": "Dev 4",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 56",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2005,
+        "desarrollador": "Dev 5",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 57",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2006,
+        "desarrollador": "Dev 6",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 58",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2007,
+        "desarrollador": "Dev 7",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 59",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2008,
+        "desarrollador": "Dev 8",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 60",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2009,
+        "desarrollador": "Dev 9",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 61",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2010,
+        "desarrollador": "Dev 10",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 62",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2011,
+        "desarrollador": "Dev 11",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 63",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2012,
+        "desarrollador": "Dev 12",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 64",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2013,
+        "desarrollador": "Dev 13",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 65",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2014,
+        "desarrollador": "Dev 14",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 66",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2015,
+        "desarrollador": "Dev 15",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 67",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2016,
+        "desarrollador": "Dev 16",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 68",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2017,
+        "desarrollador": "Dev 17",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 69",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2018,
+        "desarrollador": "Dev 18",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 70",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2019,
+        "desarrollador": "Dev 19",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 71",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2020,
+        "desarrollador": "Dev 20",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 72",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2021,
+        "desarrollador": "Dev 21",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 73",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2022,
+        "desarrollador": "Dev 22",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 74",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2023,
+        "desarrollador": "Dev 23",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 75",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2024,
+        "desarrollador": "Dev 24",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 76",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2000,
+        "desarrollador": "Dev 25",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 77",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2001,
+        "desarrollador": "Dev 26",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 78",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2002,
+        "desarrollador": "Dev 27",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 79",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2003,
+        "desarrollador": "Dev 28",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 80",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2004,
+        "desarrollador": "Dev 29",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 81",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2005,
+        "desarrollador": "Dev 30",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 82",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2006,
+        "desarrollador": "Dev 31",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 83",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2007,
+        "desarrollador": "Dev 32",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 84",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2008,
+        "desarrollador": "Dev 33",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 85",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2009,
+        "desarrollador": "Dev 34",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 86",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2010,
+        "desarrollador": "Dev 35",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 87",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2011,
+        "desarrollador": "Dev 36",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 88",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2012,
+        "desarrollador": "Dev 37",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 89",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2013,
+        "desarrollador": "Dev 38",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 90",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2014,
+        "desarrollador": "Dev 39",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 91",
+        "genero": "Acción",
+        "rating": 1,
+        "año": 2015,
+        "desarrollador": "Dev 40",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 92",
+        "genero": "Acción",
+        "rating": 2,
+        "año": 2016,
+        "desarrollador": "Dev 41",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 93",
+        "genero": "Acción",
+        "rating": 3,
+        "año": 2017,
+        "desarrollador": "Dev 42",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 94",
+        "genero": "Acción",
+        "rating": 4,
+        "año": 2018,
+        "desarrollador": "Dev 43",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 95",
+        "genero": "Acción",
+        "rating": 5,
+        "año": 2019,
+        "desarrollador": "Dev 44",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 96",
+        "genero": "Acción",
+        "rating": 6,
+        "año": 2020,
+        "desarrollador": "Dev 45",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 97",
+        "genero": "Acción",
+        "rating": 7,
+        "año": 2021,
+        "desarrollador": "Dev 46",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 98",
+        "genero": "Acción",
+        "rating": 8,
+        "año": 2022,
+        "desarrollador": "Dev 47",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 99",
+        "genero": "Acción",
+        "rating": 9,
+        "año": 2023,
+        "desarrollador": "Dev 48",
+        "descripcion": "Juego generado automáticamente"
+    },
+    {
+        "titulo": "Juego 100",
+        "genero": "Acción",
+        "rating": 10,
+        "año": 2024,
+        "desarrollador": "Dev 49",
+        "descripcion": "Juego generado automáticamente"
+    }
+]
