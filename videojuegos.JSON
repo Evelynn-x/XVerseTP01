@@ -35,6 +35,32 @@
     "desarrollador": "Santa Monica Studio",
     "exclusivo": false,
     "descripcion": "Kratos y Atreus enfrentan el fin de los tiempos nórdicos."
+  },
+ {
+    "titulo": "Spider-Man: Miles Morales",
+    "genero": "Acción/Superhéroes",
+    "rating": 8.9,
+    "año": 2020,
+    "desarrollador": "Insomniac Games",
+    "exclusivo": false,
+    "descripcion": "Miles Morales se convierte en Spider-Man y protege Nueva York."
+  },
+  {
+    "titulo": "Ghost of Tsushima",
+    "genero": "Acción/Mundo Abierto",
+    "rating": 9.3,
+    "año": 2020,
+    "desarrollador": "Sucker Punch Productions",
+    "exclusivo": true,
+    "descripcion": "Jin Sakai lucha contra la invasión mongola en la isla de Tsushima."
+  },
+  {
+    "titulo": "Gran Turismo 7",
+    "genero": "Carreras/Simulación",
+    "rating": 8.7,
+    "año": 2022,
+    "desarrollador": "Polyphony Digital",
+    "exclusivo": true,
+    "descripcion": "La saga de simulación de conducción regresa con realismo y cientos de autos."
   }
-
 ]

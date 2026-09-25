@@ -8,6 +8,8 @@ with open("videojuegos.json", "r", encoding="utf-8") as f:
 for juego in juegos:
     print(f"{juego['titulo']} ({juego['genero']}, {juego['plataforma']}) ⭐{juego['rating']}")
 
+
+
 import json
 
 # Cargar dataset
@@ -16,7 +18,11 @@ with open("videojuegos.json", "r", encoding="utf-8") as f:
 
 def listar_juegos(data):
     for j in data:
-        print(f"{j['titulo']} ({j['genero']}, {j['plataforma']}) ★ {j['rating']}")
+        print(f"{j['titulo']} ({j['genero']}) ★ {j['rating']}")
+        print(f"   Año: {j['año']}")
+        print(f"   Desarrollador: {j['desarrollador']}")
+        print(f"   Exclusivo: {'Sí' if j['exclusivo'] else 'No'}")
+        print(f"   Descripción: {j['descripcion']}\n")
 
 def buscar_juego(data, titulo):
     encontrados = [j for j in data if titulo.lower() in j['titulo'].lower()]
@@ -27,12 +33,11 @@ def buscar_juego(data, titulo):
 
 def filtrar_por_genero(data, genero):
     filtrados = [j for j in data if genero.lower() in j['genero'].lower()]
-    listar_juegos(filtrados)
+    if filtrados:
+        listar_juegos(filtrados)
+    else:
+        print("No se encontraron juegos de ese género.")
 
-
-def filtrar_por_plataforma(data, plataforma):
-    filtrados = [j for j in data if j['plataforma'].lower() == plataforma.lower()]
-    listar_juegos(filtrados)
 
 
 
@@ -83,7 +88,6 @@ def ver_top_10(juegos):
     print("\n--- TOP 10 JUEGOS ---")
     for i, juego in enumerate(juegos_ordenados[:10], start=1):
         print(f"{i}. {juego['titulo']} ({juego['consola']}) ⭐{juego['rating']}")
-
 
 def juegos_relacionados(juegos, titulo):
     # Busca el juego por título
