@@ -84,7 +84,6 @@ def medir_tiempo(func, *args):
     fin = time.time()
     return resultado, (fin - inicio) * 1000  # tiempo en ms
 
-
 # Cargar datasets
 
 with open("juegos_100.json", "r", encoding="utf-8") as f:
