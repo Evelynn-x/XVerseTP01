@@ -45,6 +45,71 @@ class Videojuego:
                 f"   Descripción: {self._descripcion}\n")
 
 
+
+#clases para el árbol binario de búsqueda 
+class Nodo:
+    def __init__(self, juego):
+        self.juego = juego
+        self.izq = None
+        self.der = None
+
+class ArbolBinarioBusqueda:
+    def __init__(self):
+        self.raiz = None
+
+    def insertar(self, juego):
+        def _insertar(nodo, juego):
+            if nodo is None:
+                return Nodo(juego)
+            if juego._titulo.lower() < nodo.juego._titulo.lower():
+                nodo.izq = _insertar(nodo.izq, juego)
+            else:
+                nodo.der = _insertar(nodo.der, juego)
+            return nodo
+        self.raiz = _insertar(self.raiz, juego)
+
+    def buscar(self, titulo):
+        def _buscar(nodo, titulo):
+            if nodo is None:
+                return None
+            if titulo.lower() == nodo.juego._titulo.lower():
+                return nodo.juego
+            elif titulo.lower() < nodo.juego._titulo.lower():
+                return _buscar(nodo.izq, titulo)
+            else:
+                return _buscar(nodo.der, titulo)
+        return _buscar(self.raiz, titulo)
+
+    # Recorrido inorder (izq - raíz - der)
+    def inorder(self):
+        def _inorder(nodo):
+            if nodo:
+                _inorder(nodo.izq)
+                print(nodo.juego)
+                _inorder(nodo.der)
+        _inorder(self.raiz)
+
+    # Recorrido preorder (raíz - izq - der)
+    def preorder(self):
+        def _preorder(nodo):
+            if nodo:
+                print(nodo.juego)
+                _preorder(nodo.izq)
+                _preorder(nodo.der)
+        _preorder(self.raiz)
+
+    # Recorrido postorder (izq - der - raíz)
+    def postorder(self):
+        def _postorder(nodo):
+            if nodo:
+                _postorder(nodo.izq)
+                _postorder(nodo.der)
+                print(nodo.juego)
+        _postorder(self.raiz)
+
+
+
+
 #convierte el dataset en una lista de objetos Videojuego
 
 with open("videojuegos.json", "r", encoding="utf-8") as f:
@@ -62,6 +127,12 @@ juegos = [
     for j in data
 ]
 
+
+
+# Construcción del árbol binario con los juegos
+arbol = ArbolBinarioBusqueda()
+for juego in juegos:
+    arbol.insertar(juego)
 
 
 
@@ -124,17 +195,23 @@ def buscar_por_desarrollador(data, desarrollador):
     else:
         print("No se encontraron juegos de ese desarrollador.")
 
-# Menú principal
+
+
+# Menú principal TP3
 while True:
-    print("--- MENÚ XVerse ---")
-    print("1. Listar todos los juegos")
-    print("2. Buscar por título")
+    print("--- MENÚ XVerse TP3 ---")
+    print("1. Listar todos los juegos (secuencial)")
+    print("2. Buscar por título (secuencial)")
     print("3. Ver Top 10")
     print("4. Ver juegos relacionados")
     print("5. Filtrar por género")
     print("6. Buscar por año")
     print("7. Buscar por desarrollador")
-    print("8. Salir")
+    print("8. Listar juegos con árbol (inorder)")
+    print("9. Listar juegos con árbol (preorder)")
+    print("10. Listar juegos con árbol (postorder)")
+    print("11. Buscar por título con árbol")
+    print("12. Salir")
 
     opcion = input("Elige una opción: ")
 
@@ -158,6 +235,16 @@ while True:
         desarrollador = input("Desarrollador a buscar: ")
         buscar_por_desarrollador(juegos, desarrollador)
     elif opcion == "8":
+        arbol.inorder()
+    elif opcion == "9":
+        arbol.preorder()
+    elif opcion == "10":
+        arbol.postorder()
+    elif opcion == "11":
+        titulo = input("Título a buscar: ")
+        resultado = arbol.buscar(titulo)
+        print(resultado if resultado else "No encontrado en árbol.")
+    elif opcion == "12":
         print("¡Hasta luego!")
         break
     else:

@@ -1,0 +1,32 @@
+<mxfile host="65bd71144e">
+    <diagram id="xvU6XIuDAu7v429NycdI" name="Page-1">
+        <mxGraphModel dx="904" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4jsVLqvk61YU63sr8asX-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="160" width="280" x="40" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4jsVLqvk61YU63sr8asX-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;«class» Videojuego&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- titulo: str&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- genero: str&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- anio: int&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- desarrollador: str&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- rating: float&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="160" width="280" x="40" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4jsVLqvk61YU63sr8asX-17" edge="1" parent="1" source="4jsVLqvk61YU63sr8asX-15" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4jsVLqvk61YU63sr8asX-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;«class» Nodo&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;- dato: Videojuego&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;- izquierdo: Nodo&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;- derecho: Nodo&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="140" width="240" x="560" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4jsVLqvk61YU63sr8asX-18" edge="1" parent="1" source="4jsVLqvk61YU63sr8asX-16" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4jsVLqvk61YU63sr8asX-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 18px;&quot;&gt;«class» ArbolBinarioBusqueda&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; size=&quot;3&quot;&gt;- raiz: Nodo&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="120" width="240" x="560" y="280" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
