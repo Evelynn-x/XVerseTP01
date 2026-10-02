@@ -15,4 +15,5 @@ Se utilizan datasets de:
 Para ejecutar los experimentos desde la terminal:
 
 ```bash
-py experimentos.py
+py TP02/experimentos.py
+
