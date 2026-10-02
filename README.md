@@ -24,37 +24,60 @@ El programa carga un dataset de videojuegos (`videojuegos.json`) y permite:
 
 ---
 
-## 🚀 Uso del programa
-Para ejecutar cada versión desde la terminal:
+## 🚀 Ejecución del proyecto
+Para correr cada trabajo práctico desde la terminal, ubicándote en la carpeta principal del repositorio:
 
-### TP01 (versión inicial)
 ```bash
-py XVERSE-TP-01.py
+# TP01 – Versión inicial
+# Script principal con menú básico y búsqueda secuencial
+py TP01/XVERSE_TP_01.py
+
+# TP02 – Experimentos de búsqueda
+# Comparación de cuatro métodos de búsqueda utilizando datasets de distinto tamaño
+py TP02/experimentos.py
+
+# TP03 – Versión extendida
+# Aplicación con menú interactivo y búsqueda mediante árbol binario
+py TP03/XVERSE_TP_03.py
+
+# TP03 – Experimentos de rendimiento
+# Pruebas comparativas de eficiencia entre búsqueda secuencial y árbol binario
+py TP03/experimentos_tp03.py
 
 ---
 
-## Estructura del repositorio
-
 PROYECTO XVERSE/
-├── XVERSE-TP-01.py          # Menú básico con búsqueda secuencial
-├── XVERSE-TP-03.py          # Versión extendida con árbol binario
-├── videojuegos.json         # Dataset principal
-├── experimentos.py          # Script de pruebas de rendimiento
-├── generar_dataset.py       # Generador de datasets
-├── juegos_100.json          # Dataset pequeño
-├── juegos_1000.json         # Dataset mediano
-├── juegos_10000.json        # Dataset grande
-├── README.md                # README principal 
-
-├── TP2/
-│   ├── README.md             # Explicación del TP2
-
+├── TP01/
+│   └── XVERSE_TP_01.py
+│   
+├── TP02/
+│   ├── experimentos.py
+│   ├── generar_dataset.py
+│   ├── juegos_100.json
+│   ├── juegos_1000.json
+│   └── juegos_10000.json
+│  
+│
+├── TP03/
+│   ├── XVERSE_TP_03.py
+│   ├── experimentos_tp03.py
+│   ├── juegos_100.json
+│   ├── juegos_1000.json
+│   └── juegos_10000.json
+│   
+│
 ├── docs/
-│   ├── 01-requerimientos.md  # Documentación del proyecto
-│   ├── 02-casos-de-uso.md
-│   ├── 03-diagrama-clases.md # Explicación + imagen UML
-│   ├── 04-diagrama-datos.md  # Conexión datasets y estructuras
-│   ├── 05-gestion-proyecto.md
-│   ├── capturas/             # Carpeta de imágenes exportadas
+│   ├── capturas/
+│   │   ├── diagrama-clases.drawio
 │   │   ├── diagrama-clases.png
-│   │   ├── diagrama-datos.png
+│   │   ├── diagrama-datos.drawio
+│   │   └── diagrama-datos.png
+│   ├── 01-requerimientos.md
+│   ├── 02-casos-de-uso.md
+│   ├── 03-diagrama-clases.md
+│   ├── 04-diagrama-datos.md
+│   └── 05-gestion-proyecto.md
+│
+├── videojuegos.JSON   
+├── .gitignore
+└── README.md          # README principal
