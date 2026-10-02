@@ -1,9 +1,13 @@
-
 import json
+import os
 
-# Cargar dataset
-with open("videojuegos.json", "r", encoding="utf-8") as f:
+# Cargar dataset desde la raíz del proyecto
+base_dir = os.path.dirname(__file__)   # carpeta TP03
+ruta_json = os.path.join(base_dir, "..", "videojuegos.json")
+
+with open(ruta_json, "r", encoding="utf-8") as f:
     juegos = json.load(f)
+
 
 def listar_juegos(data):
     for j in data:

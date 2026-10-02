@@ -28,12 +28,15 @@ def preparar_arbol(juegos):
 
 
 # Cargar datasets
-with open("juegos_100.json", "r", encoding="utf-8") as f:
+with open("TP03/juegos_100.json", "r", encoding="utf-8") as f:
     juegos_100 = json.load(f)
-with open("juegos_1000.json", "r", encoding="utf-8") as f:
+
+with open("TP03/juegos_1000.json", "r", encoding="utf-8") as f:
     juegos_1000 = json.load(f)
-with open("juegos_10000.json", "r", encoding="utf-8") as f:
+
+with open("TP03/juegos_10000.json", "r", encoding="utf-8") as f:
     juegos_10000 = json.load(f)
+
 
 #  Experimentos
 for juegos, n in [(juegos_100, 100), (juegos_1000, 1000), (juegos_10000, 10000)]:
@@ -47,4 +50,5 @@ for juegos, n in [(juegos_100, 100), (juegos_1000, 1000), (juegos_10000, 10000)]
     _, t_arbol = medir_tiempo(arbol.buscar, titulo_a_buscar)
 
     print(f"{n} elementos -> Secuencial: {t_seq:.4f} ms | Árbol: {t_arbol:.4f} ms")
+
 
