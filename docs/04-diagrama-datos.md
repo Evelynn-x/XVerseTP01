@@ -1,12 +1,12 @@
 # 📄 Proyecto XVerse - Diagrama de Datos
 
-## 📌 Introducción
+## Introducción
 El sistema XVerse utiliza distintos datasets de videojuegos y estructuras de datos para organizar y buscar información.  
 Este documento describe cómo se relacionan los archivos JSON con las estructuras implementadas en los TP.
 
 ---
 
-## 📂 Datasets utilizados
+##  Datasets utilizados
 - `videojuegos.json` → Dataset principal con catálogo de juegos.  
 - `juegos_100.json` → Dataset pequeño para pruebas de rendimiento.  
 - `juegos_1000.json` → Dataset mediano para pruebas de rendimiento.  
@@ -14,7 +14,7 @@ Este documento describe cómo se relacionan los archivos JSON con las estructura
 
 ---
 
-## 🔗 Conexión con estructuras de datos
+##  Conexión con estructuras de datos
 1. **Lista secuencial (TP01)**  
    - Los juegos se cargan en una lista de Python.  
    - Se recorren secuencialmente para listar o buscar títulos.  
@@ -30,7 +30,7 @@ Este documento describe cómo se relacionan los archivos JSON con las estructura
 
 ---
 
-## 📊 Representación esquemática
+## Representación esquemática
 videojuegos.json ──► Lista ──► Búsqueda secuencial
 └──► Árbol binario ──► Búsqueda eficiente
 └──► Diccionario ──► Acceso directo
@@ -39,7 +39,7 @@ videojuegos.json ──► Lista ──► Búsqueda secuencial
 
 ---
 
-## 📎 Conclusión
+## Conclusión
 El diagrama de datos muestra cómo los distintos **datasets JSON** se conectan con las estructuras de datos implementadas en los TP.  
 Cada estructura ofrece un nivel distinto de eficiencia:  
 - Lista → simple pero lenta.  

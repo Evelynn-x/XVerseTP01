@@ -1,6 +1,6 @@
-# 📄 Proyecto XVerse - Requerimientos
+#  Proyecto XVerse - Requerimientos
 
-## 📌 Requerimientos funcionales
+##  Requerimientos funcionales
 El sistema debe permitir:
 1. Cargar datasets de videojuegos desde archivos JSON.
 2. Listar todos los juegos con sus datos (título, género, año, desarrollador, rating, descripción).
@@ -16,7 +16,7 @@ El sistema debe permitir:
 
 ---
 
-## 📌 Requerimientos no funcionales
+##  Requerimientos no funcionales
 - El sistema debe estar implementado en **Python 3.x**.
 - El código debe ser modular y organizado en archivos separados (TP01, TP02, TP03).
 - Los resultados deben mostrarse en consola con formato claro y legible.
@@ -25,7 +25,7 @@ El sistema debe permitir:
 
 ---
 
-## 📌 Alcance
+##  Alcance
 - Actualmente el proyecto abarca hasta el **TP03**, incluyendo:
   - Lectura de datasets.
   - Funciones de búsqueda y filtrado.
@@ -38,6 +38,6 @@ El sistema debe permitir:
 
 ---
 
-## 📎 Conclusión
+##  Conclusión
 Este documento define los requisitos básicos del sistema XVerse.  
 Los requerimientos funcionales aseguran que el usuario pueda interactuar con el catálogo de videojuegos, mientras que los no funcionales garantizan eficiencia, claridad y extensibilidad del código.

@@ -1,4 +1,4 @@
-# ✳ Proyecto XVerse
+#  PROYECTO XVERSE
 
 ## 📌 Descripción
 Este proyecto forma parte de los trabajos prácticos de programación (TP01, TP02 y TP03).  
@@ -24,7 +24,7 @@ El programa carga un dataset de videojuegos (`videojuegos.json`) y permite:
 
 ---
 
-## 🚀 Ejecución del proyecto
+##  Ejecución del proyecto
 Para correr cada trabajo práctico desde la terminal, ubicándote en la carpeta principal del repositorio:
 
 ```bash
@@ -44,6 +44,7 @@ py TP03/XVERSE_TP_03.py
 # Pruebas comparativas de eficiencia entre búsqueda secuencial y árbol binario
 py TP03/experimentos_tp03.py
 
+---
 ---
 
 PROYECTO XVERSE/

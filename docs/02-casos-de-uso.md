@@ -1,12 +1,12 @@
 # 📄 Proyecto XVerse - Casos de Uso
 
-## 📌 Introducción
+##  Introducción
 Este documento describe los principales casos de uso del sistema XVerse.  
 Cada caso de uso representa una interacción típica entre el usuario y el sistema, mostrando cómo se cumplen los requerimientos funcionales.
 
 ---
 
-## 🎮 Caso de uso 1: Listar todos los juegos
+##  Caso de uso 1: Listar todos los juegos
 **Actor principal:** Usuario  
 **Objetivo:** Visualizar el catálogo completo de videojuegos.  
 **Flujo principal:**
@@ -16,7 +16,7 @@ Cada caso de uso representa una interacción típica entre el usuario y el siste
 
 ---
 
-## 🎮 Caso de uso 2: Buscar juego por título (búsqueda secuencial)
+##  Caso de uso 2: Buscar juego por título (búsqueda secuencial)
 **Actor principal:** Usuario  
 **Objetivo:** Encontrar un videojuego específico por su nombre.  
 **Flujo principal:**
@@ -27,7 +27,7 @@ Cada caso de uso representa una interacción típica entre el usuario y el siste
 
 ---
 
-## 🎮 Caso de uso 3: Buscar juego por título (árbol binario)
+##  Caso de uso 3: Buscar juego por título (árbol binario)
 **Actor principal:** Usuario  
 **Objetivo:** Encontrar un videojuego específico usando el árbol binario.  
 **Flujo principal:**
@@ -38,7 +38,7 @@ Cada caso de uso representa una interacción típica entre el usuario y el siste
 
 ---
 
-## 🎮 Caso de uso 4: Filtrar juegos por género
+##  Caso de uso 4: Filtrar juegos por género
 **Actor principal:** Usuario  
 **Objetivo:** Ver únicamente los juegos de un género específico.  
 **Flujo principal:**
@@ -48,7 +48,7 @@ Cada caso de uso representa una interacción típica entre el usuario y el siste
 
 ---
 
-## 🎮 Caso de uso 5: Ejecutar experimentos de rendimiento (TP2)
+##  Caso de uso 5: Ejecutar experimentos de rendimiento (TP2)
 **Actor principal:** Usuario  
 **Objetivo:** Comparar tiempos de ejecución entre distintos métodos de búsqueda.  
 **Flujo principal:**
@@ -59,6 +59,6 @@ Cada caso de uso representa una interacción típica entre el usuario y el siste
 
 ---
 
-## 📎 Conclusión
+##  Conclusión
 Estos casos de uso reflejan las principales interacciones del usuario con el sistema XVerse hasta el **TP03**, incluyendo las pruebas de rendimiento del **TP02**.  
 En las futuras etapas (TP04 a TP10) se agregarán nuevos casos de uso relacionados con estructuras avanzadas y funcionalidades extendidas.

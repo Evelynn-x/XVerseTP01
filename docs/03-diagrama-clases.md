@@ -1,12 +1,12 @@
 # 📄 Proyecto XVerse - Diagrama de Clases
 
-## 📌 Introducción
+##  Introducción
 El sistema XVerse utiliza clases en Python para representar videojuegos y estructuras de datos.  
 Este documento describe las clases principales y sus relaciones.
 
 ---
 
-## 🎮 Clases principales
+##  Clases principales
 
 ### Clase `Videojuego`
 - **Atributos:**
@@ -41,14 +41,14 @@ Este documento describe las clases principales y sus relaciones.
 
 ---
 
-## 🔗 Relaciones
+##  Relaciones
 - `Videojuego` es contenido dentro de un `Nodo`.
 - `Nodo` se conecta con otros nodos (`izquierdo`, `derecho`) formando el árbol.
 - `ArbolBinarioBusqueda` administra los nodos y provee operaciones de búsqueda y recorrido.
 
 ---
 
-# 📊 Diagrama de Clases
+#  Diagrama de Clases
 
 El proyecto utiliza un **árbol binario de búsqueda** para organizar objetos de tipo `Videojuego`.  
 El siguiente diagrama UML muestra las clases principales y sus relaciones:
@@ -57,13 +57,13 @@ El siguiente diagrama UML muestra las clases principales y sus relaciones:
 - **Nodo**: estructura que contiene un objeto `Videojuego` y referencias a otros nodos (`izquierdo`, `derecho`).  
 - **ArbolBinarioBusqueda**: clase que gestiona la raíz del árbol y permite organizar los nodos.
 
-## 📷 Representación UML
+##  Representación UML
 
 ![Diagrama de Clases](capturas/diagrama-clases.png)
 
 ---
 
-## 📎 Conclusión
+##  Conclusión
 El diagrama de clases refleja cómo se organiza la información en el sistema:  
 - Los videojuegos se encapsulan en objetos (`Videojuego`).  
 - Los nodos (`Nodo`) permiten estructurar los datos.  
